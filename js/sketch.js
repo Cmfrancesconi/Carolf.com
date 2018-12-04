@@ -40,11 +40,11 @@ function draw() {
 var easing = 0.05;
 
   // stroke (0);
-  strokeWeight(2)
-  line (mouseX + random (0,25), mouseY+ random (0,50),diffx + random (0,75), diffy + random (0,100));
-  line (mouseX + random (0,100), mouseY+ random (0,75),diffx - random (0,50), diffy - random (0,25));
-  line (mouseX - random (0,125), mouseY- random (0,150),diffx - random (0,175), diffy - random (0,200));
-  line (mouseX - random (0,200), mouseY- random (0,175),diffx + random (0,125), diffy + random (0,100));
+  strokeWeight(4)
+  line (mouseX + random (0,10), mouseY+ random (0,10),diffx + random (0,100), diffy + random (0,100));
+  line (mouseX + random (0,10), mouseY+ random (0,10),diffx - random (0,100), diffy - random (0,100));
+  line (mouseX - random (0,10), mouseY- random (0,10),diffx - random (0,100), diffy - random (0,100));
+  line (mouseX - random (0,10), mouseY- random (0,10),diffx + random (0,100), diffy + random (0,100));
 
   // random(ellipse(mouseX + 60, mouseY, random(0, 100), random(0, 100)), rect(mouseX + 60, mouseY, random(0, 100), random(0, 100)), triangle(mouseX + random(0, 100), mouseY + random(0, 100), mouseX, mouseY, mouseX + random(0, 100), mouseY + random(0, 100)))
 
