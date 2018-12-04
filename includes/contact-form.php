@@ -13,13 +13,13 @@ if( isset($_POST['name']) && isset($_POST['email']) && isset($_POST['msg']) ){
     if (MAIL_HOST != null) {
         $to = MAIL_HOST;
     } else {
-        $to = "truongngodang@gmail.com";
+        $to = "carol@carolf.com";
     }
     $from = $email;
     if (MAIL_TITLE != null) {
         $subject = MAIL_TITLE;
     } else {
-        $subject = '[AuCrative] Contact Form Message';
+        $subject = 'Contact Form Message';
     }
     $message = '<b>Name:</b> '.$name.' <br><b>Email:</b> '.$email.' <br> <p>'.$msg.'</p>';
     $headers = "From: $from\n";
