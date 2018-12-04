@@ -41,7 +41,7 @@ var easing = 0.05;
 
   // stroke (0);
   strokeWeight(4)
-  line (mouseX + random (0,10), mouseY+ random (0,10),diffx + random (0,100), diffy + random (0,100));
+  line (mouseX + random (0,25), mouseY+ random (0,100),diffx + random (0,50), diffy + random (0,10));
   line (mouseX + random (0,10), mouseY+ random (0,10),diffx - random (0,100), diffy - random (0,100));
   line (mouseX - random (0,10), mouseY- random (0,10),diffx - random (0,100), diffy - random (0,100));
   line (mouseX - random (0,10), mouseY- random (0,10),diffx + random (0,100), diffy + random (0,100));
